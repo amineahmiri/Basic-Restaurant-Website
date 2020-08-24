@@ -1,0 +1,152 @@
+body {
+    background-image: url(https://media.giphy.com/media/OkVVUlG40FnuE/giphy.gif);
+    );
+}
+.banner {
+    width: 100%;    
+    background-size: cover;
+    font-size: 1cm;
+    color: #fff;
+    text-align: center;
+    padding: 80px 25px;
+  }
+  
+  .banner a {
+    display: inline-block;
+    background: #fff;
+    color: #36465d;
+    text-transform: uppercase;
+    padding: 20px;
+    text-decoration: none;
+    font-size: 10px;
+    transition: .3s;
+  }
+  .banner a:hover {
+    background: #333;
+    color: rgb(238, 12, 12);
+    padding: 15px 20px;
+  });
+
+.big-text {
+font-size: 130px;
+font-weight:80px;
+animation-delay: 1s;
+}
+
+
+.tabs-container {
+    background-color:black;
+    width: 65%;
+    margin: auto;
+    padding-bottom: auto;
+}
+
+.tabHeader {
+    border: none;
+    outline: none;
+    background: transparent;
+    color :whitesmoke;
+    padding: 10px 30px;
+    font-size: 1em;
+    cursor: pointer;
+}
+.tabSection {
+    border: 1px solid #eee;
+    padding: 15px;
+}
+
+.hide-tab {
+    display: none;
+}
+
+body {
+    margin: auto;
+    padding: auto;
+}
+
+h2 {
+    margin: 0;
+}
+
+#landing-page {
+    background-image: url(https://image.freepik.com/free-photo/herbs-spices-black_67618-925.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 82vh;
+}
+
+.title-background {
+    background: #050000;
+    width: fit-content;
+    margin: auto;
+    padding: 10px;
+}
+
+.title {
+    text-align: center;
+    color: #D0D3D4;
+    font-size: 2em;
+}
+
+#menu {
+    background: rgb(85, 13, 13);
+}
+
+.menu-title {
+    color: #D0D3D4;
+    text-align: center;
+    padding: 25px;
+    font-size: 3em;
+}
+
+p {
+    font-size: 1.5em;
+    color: #eee;
+}
+
+.menu-price {
+    float: right;
+    color:rgb(224, 158, 158);
+}
+
+#restaurant-info {
+    background:gray;
+}
+
+.restaurant-info-title {
+    color:black;
+    text-align: center;
+}
+
+.info-container {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.address-content, .business-hours, .contact-content {
+    padding: 10px;
+}
+
+.address, .hours {
+    font-size: 1em !important;
+    text-align: center;
+}
+
+.phone {
+    font-size: 1em !important;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+@media screen and (min-width: 768px) {
+    .info-container {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .address-content, .business-hours {
+        border-right: 1px solid #eee;
+        padding: 30px;
+    }
+    .contact-content {
+        padding: 40px;
+    }
+}
